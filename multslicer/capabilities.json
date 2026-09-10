@@ -1,0 +1,1483 @@
+{
+  "dataRoles": [
+    {
+      "displayName": "Section 1",
+      "name": "section1",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Section 2",
+      "name": "section2",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Section 3",
+      "name": "section3",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Section 4",
+      "name": "section4",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Section 5",
+      "name": "section5",
+      "kind": "Grouping"
+    }
+  ],
+  "objects": {
+    "design": {
+      "displayName": "Design",
+      "properties": {
+        "backColor": {
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        },
+        "slicerBackColor": {
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        },
+        "labelColor": {
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        },
+        "labelFontFamily": {
+          "type": {
+            "formatting": {
+              "fontFamily": true
+            }
+          }
+        },
+        "labelFontSize": {
+          "type": {
+            "formatting": {
+              "fontSize": true
+            }
+          }
+        },
+        "labelBold": {
+          "type": {
+            "bool": true
+          }
+        },
+        "labelItalic": {
+          "type": {
+            "bool": true
+          }
+        },
+        "labelUnderline": {
+          "type": {
+            "bool": true
+          }
+        },
+        "sectionColor": {
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        },
+        "sectionFontFamily": {
+          "type": {
+            "formatting": {
+              "fontFamily": true
+            }
+          }
+        },
+        "sectionFontSize": {
+          "type": {
+            "formatting": {
+              "fontSize": true
+            }
+          }
+        },
+        "sectionBold": {
+          "type": {
+            "bool": true
+          }
+        },
+        "sectionItalic": {
+          "type": {
+            "bool": true
+          }
+        },
+        "sectionUnderline": {
+          "type": {
+            "bool": true
+          }
+        },
+        "slicerTitleColor": {
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        },
+        "slicerTitleFontFamily": {
+          "type": {
+            "formatting": {
+              "fontFamily": true
+            }
+          }
+        },
+        "slicerTitleFontSize": {
+          "type": {
+            "formatting": {
+              "fontSize": true
+            }
+          }
+        },
+        "slicerTitleBold": {
+          "type": {
+            "bool": true
+          }
+        },
+        "slicerTitleItalic": {
+          "type": {
+            "bool": true
+          }
+        },
+        "slicerTitleUnderline": {
+          "type": {
+            "bool": true
+          }
+        },
+        "addFilterColor": {
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        },
+        "addFilterFontFamily": {
+          "type": {
+            "formatting": {
+              "fontFamily": true
+            }
+          }
+        },
+        "addFilterFontSize": {
+          "type": {
+            "formatting": {
+              "fontSize": true
+            }
+          }
+        },
+        "addFilterBold": {
+          "type": {
+            "bool": true
+          }
+        },
+        "addFilterItalic": {
+          "type": {
+            "bool": true
+          }
+        },
+        "addFilterUnderline": {
+          "type": {
+            "bool": true
+          }
+        },
+        "searchColor": {
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        },
+        "searchFontFamily": {
+          "type": {
+            "formatting": {
+              "fontFamily": true
+            }
+          }
+        },
+        "searchFontSize": {
+          "type": {
+            "formatting": {
+              "fontSize": true
+            }
+          }
+        },
+        "searchBold": {
+          "type": {
+            "bool": true
+          }
+        },
+        "searchItalic": {
+          "type": {
+            "bool": true
+          }
+        },
+        "searchUnderline": {
+          "type": {
+            "bool": true
+          }
+        },
+        "chips": {
+          "type": {
+            "bool": true
+          }
+        }
+      }
+    },
+    "general": {
+      "displayName": "General",
+      "displayNameKey": "formattingGeneral",
+      "properties": {
+        "filter": {
+          "type": {
+            "filter": true
+          }
+        }
+      }
+    },
+    "filtering": {
+      "displayName": "Filtering",
+      "properties": {
+        "crossFilter": {
+          "displayName": "Filter other fields",
+          "type": {
+            "bool": true
+          }
+        }
+      }
+    },
+    "saveState": {
+      "displayName": "Saved Settings",
+      "properties": {
+        "slicerVisibility": {
+          "displayName": "",
+          "type": {
+            "text": true
+          }
+        }
+      }
+    },
+    "section1": {
+      "displayName": "Section 1",
+      "properties": {
+        "sectionName": {
+          "displayName": "Section Name",
+          "type": {
+            "text": true
+          }
+        },
+        "slicerType": {
+          "displayName": "Slicer Type",
+          "type": {
+            "enumeration": [
+              {
+                "value": "list",
+                "displayName": "List"
+              },
+              {
+                "value": "dropdown",
+                "displayName": "Dropdown"
+              },
+              {
+                "value": "dateRange",
+                "displayName": "Date"
+              },
+              {
+                "value": "numeric",
+                "displayName": "Numeric"
+              },
+              {
+                "value": "time",
+                "displayName": "Time"
+              }
+            ]
+          }
+        },
+        "singleSelect": {
+          "displayName": "Single Select",
+          "type": {
+            "bool": true
+          }
+        },
+        "selectAll": {
+          "displayName": "Show Select All",
+          "type": {
+            "bool": true
+          }
+        },
+        "search": {
+          "displayName": "Show Search",
+          "type": {
+            "bool": true
+          }
+        },
+        "forceSelect": {
+          "displayName": "Force Select",
+          "type": {
+            "bool": true
+          }
+        },
+        "textForceSelectType": {
+          "displayName": "",
+          "type": {
+            "enumeration": [
+              {
+                "value": "first",
+                "displayName": "First"
+              },
+              {
+                "value": "last",
+                "displayName": "In Last"
+              }
+            ]
+          }
+        },
+        "numberForceSelectType": {
+          "displayName": "",
+          "type": {
+            "enumeration": [
+              {
+                "value": "min",
+                "displayName": "Min"
+              },
+              {
+                "value": "max",
+                "displayName": "Max"
+              }
+            ]
+          }
+        },
+        "hieararchyState": {
+          "type": {
+            "text": true
+          }
+        },
+        "relativeDate": {
+          "displayName": "Relative Filtering",
+          "type": {
+            "bool": true
+          }
+        },
+        "isCurrent": {
+          "displayName": "Current",
+          "type": {
+            "bool": true
+          }
+        },
+        "dateType": {
+          "displayName": "",
+          "type": {
+            "text": true
+          }
+        },
+        "duration": {
+          "displayName": "",
+          "type": {
+            "numeric": true
+          }
+        },
+        "durationType": {
+          "displayName": "",
+          "type": {
+            "text": true
+          }
+        },
+        "isIncluded": {
+          "displayName": "",
+          "type": {
+            "bool": true
+          }
+        },
+        "showLast": {
+          "displayName": "In Last",
+          "type": {
+            "bool": true
+          }
+        },
+        "showNext": {
+          "displayName": "In Next",
+          "type": {
+            "bool": true
+          }
+        },
+        "showThis": {
+          "displayName": "In This",
+          "type": {
+            "bool": true
+          }
+        },
+        "showBefore": {
+          "displayName": "Is Before",
+          "type": {
+            "bool": true
+          }
+        },
+        "showAfter": {
+          "displayName": "Is After",
+          "type": {
+            "bool": true
+          }
+        },
+        "showBetween": {
+          "displayName": "Is Between",
+          "type": {
+            "bool": true
+          }
+        },
+        "days": {
+          "displayName": "Days",
+          "type": {
+            "bool": true
+          }
+        },
+        "weeks": {
+          "displayName": "Weeks",
+          "type": {
+            "bool": true
+          }
+        },
+        "months": {
+          "displayName": "Months",
+          "type": {
+            "bool": true
+          }
+        },
+        "quarters": {
+          "displayName": "Quarters",
+          "type": {
+            "bool": true
+          }
+        },
+        "years": {
+          "displayName": "Years",
+          "type": {
+            "bool": true
+          }
+        },
+        "numberType": {
+          "displayName": "",
+          "type": {
+            "text": true
+          }
+        },
+        "value":{
+          "displayName":"",
+          "type":{
+            "numeric":true
+          }
+        },
+        "decimal": {
+          "displayName": "Decimal Places",
+          "type": {
+            "numeric": true
+          }
+        },
+        "timeCondition": {
+          "displayName": "",
+          "type": {
+            "text": true
+          }
+        },
+        "slider": {
+          "displayName": "Slider",
+          "type": {
+            "bool": true
+          }
+        }
+      }
+    },
+    "section2": {
+      "displayName": "Section 2",
+      "properties": {
+        "sectionName": {
+          "displayName": "Section Name",
+          "type": {
+            "text": true
+          }
+        },
+        "slicerType": {
+          "displayName": "Slicer Type",
+          "type": {
+            "enumeration": [
+              {
+                "value": "list",
+                "displayName": "List"
+              },
+              {
+                "value": "dropdown",
+                "displayName": "Dropdown"
+              },
+              {
+                "value": "dateRange",
+                "displayName": "Date"
+              },
+              {
+                "value": "numeric",
+                "displayName": "Numeric"
+              },
+              {
+                "value": "time",
+                "displayName": "Time"
+              }
+            ]
+          }
+        },
+        "singleSelect": {
+          "displayName": "Single Select",
+          "type": {
+            "bool": true
+          }
+        },
+        "selectAll": {
+          "displayName": "Show Select All",
+          "type": {
+            "bool": true
+          }
+        },
+        "search": {
+          "displayName": "Show Search",
+          "type": {
+            "bool": true
+          }
+        },
+        "forceSelect": {
+          "displayName": "Force Select",
+          "type": {
+            "bool": true
+          }
+        },
+        "textForceSelectType": {
+          "displayName": "",
+          "type": {
+            "enumeration": [
+              {
+                "value": "first",
+                "displayName": "First"
+              },
+              {
+                "value": "last",
+                "displayName": "In Last"
+              }
+            ]
+          }
+        },
+        "numberForceSelectType": {
+          "displayName": "",
+          "type": {
+            "enumeration": [
+              {
+                "value": "min",
+                "displayName": "Min"
+              },
+              {
+                "value": "max",
+                "displayName": "Max"
+              }
+            ]
+          }
+        },
+        "hieararchyState": {
+          "type": {
+            "text": true
+          }
+        },
+        "relativeDate": {
+          "displayName": "Relative Filtering",
+          "type": {
+            "bool": true
+          }
+        },
+        "isCurrent": {
+          "displayName": "Calendar Mode",
+          "type": {
+            "bool": true
+          }
+        },
+        "dateType": {
+          "displayName": "",
+          "type": {
+            "text": true
+          }
+        },
+        "duration": {
+          "displayName": "",
+          "type": {
+            "numeric": true
+          }
+        },
+        "durationType": {
+          "displayName": "",
+          "type": {
+            "text": true
+          }
+        },
+        "isIncluded": {
+          "displayName": "",
+          "type": {
+            "bool": true
+          }
+        },
+        "showLast": {
+          "displayName": "In Last",
+          "type": {
+            "bool": true
+          }
+        },
+        "showNext": {
+          "displayName": "In Next",
+          "type": {
+            "bool": true
+          }
+        },
+        "showThis": {
+          "displayName": "In This",
+          "type": {
+            "bool": true
+          }
+        },
+        "showBefore": {
+          "displayName": "Is Before",
+          "type": {
+            "bool": true
+          }
+        },
+        "showAfter": {
+          "displayName": "Is After",
+          "type": {
+            "bool": true
+          }
+        },
+        "showBetween": {
+          "displayName": "Is Between",
+          "type": {
+            "bool": true
+          }
+        },
+        "days": {
+          "displayName": "Days",
+          "type": {
+            "bool": true
+          }
+        },
+        "weeks": {
+          "displayName": "Weeks",
+          "type": {
+            "bool": true
+          }
+        },
+        "months": {
+          "displayName": "Months",
+          "type": {
+            "bool": true
+          }
+        },
+        "quarters": {
+          "displayName": "Quarters",
+          "type": {
+            "bool": true
+          }
+        },
+        "years": {
+          "displayName": "Years",
+          "type": {
+            "bool": true
+          }
+        },
+        "numberType": {
+          "displayName": "",
+          "type": {
+            "text": true
+          }
+        },
+        "value":{
+          "displayName":"",
+          "type":{
+            "numeric":true
+          }
+        },
+        "decimal": {
+          "displayName": "Decimal Places",
+          "type": {
+            "numeric": true
+          }
+        },
+        "timeCondition": {
+          "displayName": "",
+          "type": {
+            "text": true
+          }
+        },
+        "slider": {
+          "displayName": "Slider",
+          "type": {
+            "bool": true
+          }
+        }
+      }
+    },
+    "section3": {
+      "displayName": "Section 3",
+      "properties": {
+        "sectionName": {
+          "displayName": "Section Name",
+          "type": {
+            "text": true
+          }
+        },
+        "slicerType": {
+          "displayName": "Slicer Type",
+          "type": {
+            "enumeration": [
+              {
+                "value": "list",
+                "displayName": "List"
+              },
+              {
+                "value": "dropdown",
+                "displayName": "Dropdown"
+              },
+              {
+                "value": "dateRange",
+                "displayName": "Date"
+              },
+              {
+                "value": "numeric",
+                "displayName": "Numeric"
+              },
+              {
+                "value": "time",
+                "displayName": "Time"
+              }
+            ]
+          }
+        },
+        "singleSelect": {
+          "displayName": "Single Select",
+          "type": {
+            "bool": true
+          }
+        },
+        "selectAll": {
+          "displayName": "Show Select All",
+          "type": {
+            "bool": true
+          }
+        },
+        "search": {
+          "displayName": "Show Search",
+          "type": {
+            "bool": true
+          }
+        },
+        "forceSelect": {
+          "displayName": "Force Select",
+          "type": {
+            "bool": true
+          }
+        },
+        "textForceSelectType": {
+          "displayName": "",
+          "type": {
+            "enumeration": [
+              {
+                "value": "first",
+                "displayName": "First"
+              },
+              {
+                "value": "last",
+                "displayName": "In Last"
+              }
+            ]
+          }
+        },
+        "numberForceSelectType": {
+          "displayName": "",
+          "type": {
+            "enumeration": [
+              {
+                "value": "min",
+                "displayName": "Min"
+              },
+              {
+                "value": "max",
+                "displayName": "Max"
+              }
+            ]
+          }
+        },
+        "hieararchyState": {
+          "type": {
+            "text": true
+          }
+        },
+        "relativeDate": {
+          "displayName": "Relative Filtering",
+          "type": {
+            "bool": true
+          }
+        },
+        "isCurrent": {
+          "displayName": "Calendar Mode",
+          "type": {
+            "bool": true
+          }
+        },
+        "dateType": {
+          "displayName": "",
+          "type": {
+            "text": true
+          }
+        },
+        "duration": {
+          "displayName": "",
+          "type": {
+            "numeric": true
+          }
+        },
+        "durationType": {
+          "displayName": "",
+          "type": {
+            "text": true
+          }
+        },
+        "isIncluded": {
+          "displayName": "",
+          "type": {
+            "bool": true
+          }
+        },
+        "showLast": {
+          "displayName": "In Last",
+          "type": {
+            "bool": true
+          }
+        },
+        "showNext": {
+          "displayName": "In Next",
+          "type": {
+            "bool": true
+          }
+        },
+        "showThis": {
+          "displayName": "In This",
+          "type": {
+            "bool": true
+          }
+        },
+        "showBefore": {
+          "displayName": "Is Before",
+          "type": {
+            "bool": true
+          }
+        },
+        "showAfter": {
+          "displayName": "Is After",
+          "type": {
+            "bool": true
+          }
+        },
+        "showBetween": {
+          "displayName": "Is Between",
+          "type": {
+            "bool": true
+          }
+        },
+        "days": {
+          "displayName": "Days",
+          "type": {
+            "bool": true
+          }
+        },
+        "weeks": {
+          "displayName": "Weeks",
+          "type": {
+            "bool": true
+          }
+        },
+        "months": {
+          "displayName": "Months",
+          "type": {
+            "bool": true
+          }
+        },
+        "quarters": {
+          "displayName": "Quarters",
+          "type": {
+            "bool": true
+          }
+        },
+        "years": {
+          "displayName": "Years",
+          "type": {
+            "bool": true
+          }
+        },
+        "numberType": {
+          "displayName": "",
+          "type": {
+            "text": true
+          }
+        },
+        "value":{
+          "displayName":"",
+          "type":{
+            "numeric":true
+          }
+        },
+        "decimal": {
+          "displayName": "Decimal Places",
+          "type": {
+            "numeric": true
+          }
+        },
+        "timeCondition": {
+          "displayName": "",
+          "type": {
+            "text": true
+          }
+        },
+        "slider": {
+          "displayName": "Slider",
+          "type": {
+            "bool": true
+          }
+        }
+      }
+    },
+    "section4": {
+      "displayName": "Section 4",
+      "properties": {
+        "sectionName": {
+          "displayName": "Section Name",
+          "type": {
+            "text": true
+          }
+        },
+        "slicerType": {
+          "displayName": "Slicer Type",
+          "type": {
+            "enumeration": [
+              {
+                "value": "list",
+                "displayName": "List"
+              },
+              {
+                "value": "dropdown",
+                "displayName": "Dropdown"
+              },
+              {
+                "value": "dateRange",
+                "displayName": "Date"
+              },
+              {
+                "value": "numeric",
+                "displayName": "Numeric"
+              },
+              {
+                "value": "time",
+                "displayName": "Time"
+              }
+            ]
+          }
+        },
+        "singleSelect": {
+          "displayName": "Single Select",
+          "type": {
+            "bool": true
+          }
+        },
+        "selectAll": {
+          "displayName": "Show Select All",
+          "type": {
+            "bool": true
+          }
+        },
+        "search": {
+          "displayName": "Show Search",
+          "type": {
+            "bool": true
+          }
+        },
+        "forceSelect": {
+          "displayName": "Force Select",
+          "type": {
+            "bool": true
+          }
+        },
+        "textForceSelectType": {
+          "displayName": "",
+          "type": {
+            "enumeration": [
+              {
+                "value": "first",
+                "displayName": "First"
+              },
+              {
+                "value": "last",
+                "displayName": "In Last"
+              }
+            ]
+          }
+        },
+        "numberForceSelectType": {
+          "displayName": "",
+          "type": {
+            "enumeration": [
+              {
+                "value": "min",
+                "displayName": "Min"
+              },
+              {
+                "value": "max",
+                "displayName": "Max"
+              }
+            ]
+          }
+        },
+        "hieararchyState": {
+          "type": {
+            "text": true
+          }
+        },
+        "relativeDate": {
+          "displayName": "Relative Filtering",
+          "type": {
+            "bool": true
+          }
+        },
+        "isCurrent": {
+          "displayName": "Calendar Mode",
+          "type": {
+            "bool": true
+          }
+        },
+        "dateType": {
+          "displayName": "",
+          "type": {
+            "text": true
+          }
+        },
+        "duration": {
+          "displayName": "",
+          "type": {
+            "numeric": true
+          }
+        },
+        "durationType": {
+          "displayName": "",
+          "type": {
+            "text": true
+          }
+        },
+        "isIncluded": {
+          "displayName": "",
+          "type": {
+            "bool": true
+          }
+        },
+        "showLast": {
+          "displayName": "In Last",
+          "type": {
+            "bool": true
+          }
+        },
+        "showNext": {
+          "displayName": "In Next",
+          "type": {
+            "bool": true
+          }
+        },
+        "showThis": {
+          "displayName": "In This",
+          "type": {
+            "bool": true
+          }
+        },
+        "showBefore": {
+          "displayName": "Is Before",
+          "type": {
+            "bool": true
+          }
+        },
+        "showAfter": {
+          "displayName": "Is After",
+          "type": {
+            "bool": true
+          }
+        },
+        "showBetween": {
+          "displayName": "Is Between",
+          "type": {
+            "bool": true
+          }
+        },
+        "days": {
+          "displayName": "Days",
+          "type": {
+            "bool": true
+          }
+        },
+        "weeks": {
+          "displayName": "Weeks",
+          "type": {
+            "bool": true
+          }
+        },
+        "months": {
+          "displayName": "Months",
+          "type": {
+            "bool": true
+          }
+        },
+        "quarters": {
+          "displayName": "Quarters",
+          "type": {
+            "bool": true
+          }
+        },
+        "years": {
+          "displayName": "Years",
+          "type": {
+            "bool": true
+          }
+        },
+        "numberType": {
+          "displayName": "",
+          "type": {
+            "text": true
+          }
+        },
+        "value":{
+          "displayName":"",
+          "type":{
+            "numeric":true
+          }
+        },
+        "decimal": {
+          "displayName": "Decimal Places",
+          "type": {
+            "numeric": true
+          }
+        },
+        "timeCondition": {
+          "displayName": "",
+          "type": {
+            "text": true
+          }
+        },
+        "slider": {
+          "displayName": "Slider",
+          "type": {
+            "bool": true
+          }
+        }
+      }
+    },
+    "section5": {
+      "displayName": "Section 5",
+      "properties": {
+        "sectionName": {
+          "displayName": "Section Name",
+          "type": {
+            "text": true
+          }
+        },
+        "slicerType": {
+          "displayName": "Slicer Type",
+          "type": {
+            "enumeration": [
+              {
+                "value": "list",
+                "displayName": "List"
+              },
+              {
+                "value": "dropdown",
+                "displayName": "Dropdown"
+              },
+              {
+                "value": "dateRange",
+                "displayName": "Date"
+              },
+              {
+                "value": "numeric",
+                "displayName": "Numeric"
+              },
+              {
+                "value": "time",
+                "displayName": "Time"
+              }
+            ]
+          }
+        },
+        "singleSelect": {
+          "displayName": "Single Select",
+          "type": {
+            "bool": true
+          }
+        },
+        "selectAll": {
+          "displayName": "Show Select All",
+          "type": {
+            "bool": true
+          }
+        },
+        "search": {
+          "displayName": "Show Search",
+          "type": {
+            "bool": true
+          }
+        },
+        "forceSelect": {
+          "displayName": "Force Select",
+          "type": {
+            "bool": true
+          }
+        },
+        "textForceSelectType": {
+          "displayName": "",
+          "type": {
+            "enumeration": [
+              {
+                "value": "first",
+                "displayName": "First"
+              },
+              {
+                "value": "last",
+                "displayName": "In Last"
+              }
+            ]
+          }
+        },
+        "numberForceSelectType": {
+          "displayName": "",
+          "type": {
+            "enumeration": [
+              {
+                "value": "min",
+                "displayName": "Min"
+              },
+              {
+                "value": "max",
+                "displayName": "Max"
+              }
+            ]
+          }
+        },
+        "hieararchyState": {
+          "type": {
+            "text": true
+          }
+        },
+        "relativeDate": {
+          "displayName": "Relative Filtering",
+          "type": {
+            "bool": true
+          }
+        },
+        "isCurrent": {
+          "displayName": "Calendar Mode",
+          "type": {
+            "bool": true
+          }
+        },
+        "dateType": {
+          "displayName": "",
+          "type": {
+            "text": true
+          }
+        },
+        "duration": {
+          "displayName": "",
+          "type": {
+            "numeric": true
+          }
+        },
+        "durationType": {
+          "displayName": "",
+          "type": {
+            "text": true
+          }
+        },
+        "isIncluded": {
+          "displayName": "",
+          "type": {
+            "bool": true
+          }
+        },
+        "showLast": {
+          "displayName": "In Last",
+          "type": {
+            "bool": true
+          }
+        },
+        "showNext": {
+          "displayName": "In Next",
+          "type": {
+            "bool": true
+          }
+        },
+        "showThis": {
+          "displayName": "In This",
+          "type": {
+            "bool": true
+          }
+        },
+        "showBefore": {
+          "displayName": "Is Before",
+          "type": {
+            "bool": true
+          }
+        },
+        "showAfter": {
+          "displayName": "Is After",
+          "type": {
+            "bool": true
+          }
+        },
+        "showBetween": {
+          "displayName": "Is Between",
+          "type": {
+            "bool": true
+          }
+        },
+        "days": {
+          "displayName": "Days",
+          "type": {
+            "bool": true
+          }
+        },
+        "weeks": {
+          "displayName": "Weeks",
+          "type": {
+            "bool": true
+          }
+        },
+        "months": {
+          "displayName": "Months",
+          "type": {
+            "bool": true
+          }
+        },
+        "quarters": {
+          "displayName": "Quarters",
+          "type": {
+            "bool": true
+          }
+        },
+        "years": {
+          "displayName": "Years",
+          "type": {
+            "bool": true
+          }
+        },
+        "numberType": {
+          "displayName": "",
+          "type": {
+            "text": true
+          }
+        },
+        "value":{
+          "displayName":"",
+          "type":{
+            "numeric":true
+          }
+        },
+        "decimal": {
+          "displayName": "Decimal Places",
+          "type": {
+            "numeric": true
+          }
+        },
+        "timeCondition": {
+          "displayName": "",
+          "type": {
+            "text": true
+          }
+        },
+        "slider": {
+          "displayName": "Slider",
+          "type": {
+            "bool": true
+          }
+        }
+      }
+    }
+  },
+  "dataViewMappings": [
+    {
+      "categorical": {
+        "categories": {
+          "select": [
+            {
+              "for": {
+                "in": "section1"
+              }
+            },
+            {
+              "for": {
+                "in": "section2"
+              }
+            },
+            {
+              "for": {
+                "in": "section3"
+              }
+            },
+            {
+              "for": {
+                "in": "section4"
+              }
+            },
+            {
+              "for": {
+                "in": "section5"
+              }
+            }
+          ],
+          "dataReductionAlgorithm": {
+            "top": {
+              "count": 30000
+            }
+          }
+        },
+        "values": {
+          "select": [
+            {
+              "bind": {
+                "to": "-"
+              }
+            }
+          ],
+          "dataReductionAlgorithm": {
+            "top": {
+              "count": 30000
+            }
+          }
+        }
+      }
+    }
+  ],
+  "privileges": [],
+  "supportsSynchronizingFilterState": true
+}

@@ -1,0 +1,20 @@
+{
+  "visual": {
+    "name": "multiSlicerDarwinbox",
+    "displayName": "multiSlicerDarwinbox",
+    "guid": "multiSlicerDarwinbox821D578930EF4108BB76486B5F41070E",
+    "visualClassName": "Visual",
+    "version": "2.5.0.0",
+    "description": "Darwinbox Multislicer",
+    "supportUrl": "darwinbox",
+    "gitHubUrl": ""
+  },
+  "apiVersion": "5.8.0",
+  "author": { "name": "Shannon Pereira", "email": "shannon.pereira@datellers.com" },
+  "assets": { "icon": "assets/icon.png" },
+  "externalJS": null,
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json",
+  "dependencies": null,
+  "stringResources": []
+}
